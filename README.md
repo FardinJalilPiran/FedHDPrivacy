@@ -23,8 +23,3 @@ If you use FedHDPrivacy in your research, please cite our paper:
   publisher={Elsevier}
 }
 ```
-
-## License
-
-Please specify the license under which your project is available here (e.g., MIT, Apache-2.0, GPL, etc.).
-

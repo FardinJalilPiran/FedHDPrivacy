@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "FedHDPrivacy"
+abstract: >-
+  Reference implementation of FedHDPrivacy, an explainable federated learning
+  framework combining hyperdimensional computing with differential privacy for
+  IoT environments.
+authors:
+  - family-names: "Jalil Piran"
+    given-names: "Fardin"
+    affiliation: "University of Connecticut"
+  - family-names: "Chen"
+    given-names: "Zhiling"
+    affiliation: "University of Connecticut"
+  - family-names: "Imani"
+    given-names: "Mohsen"
+    affiliation: "University of California, Irvine"
+  - family-names: "Imani"
+    given-names: "Farhad"
+    affiliation: "University of Connecticut"
+license: MIT
+repository-code: "https://github.com/FardinJalilPiran/FedHDPrivacy"
+preferred-citation:
+  type: article
+  title: "Privacy-Preserving Federated Learning with Differentially Private Hyperdimensional Computing"
+  authors:
+    - family-names: "Jalil Piran"
+      given-names: "Fardin"
+    - family-names: "Chen"
+      given-names: "Zhiling"
+    - family-names: "Imani"
+      given-names: "Mohsen"
+    - family-names: "Imani"
+      given-names: "Farhad"
+  journal: "Computers and Electrical Engineering"
+  volume: 123
+  start: 110261
+  year: 2025
+  doi: "10.1016/j.compeleceng.2025.110261"

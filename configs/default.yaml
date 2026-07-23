@@ -1,0 +1,19 @@
+# Default configuration: UCI HAR, 8 clients, matching the paper's setup as
+# closely as a public dataset allows.
+dataset: uci_har
+partition: natural        # one group of smartphone subjects per client
+data_root: data
+
+n_clients: 8
+rounds: 10
+local_epochs: 10
+
+dimensions: 10000         # hypervector size D
+encoder: projection       # "projection" (fast) or "density" (torchhd, original notebook)
+
+differential_privacy: true
+epsilon: 10.0
+
+seed: 42
+device: auto
+output_dir: results

@@ -1,0 +1,19 @@
+# Non-private baseline: same everything, DP switched off. Use this to measure
+# the accuracy cost of the privacy guarantee.
+dataset: uci_har
+partition: natural
+data_root: data
+
+n_clients: 8
+rounds: 10
+local_epochs: 10
+
+dimensions: 10000
+encoder: projection       # "projection" (fast) or "density" (torchhd, original notebook)
+
+differential_privacy: false
+epsilon: 10.0
+
+seed: 42
+device: auto
+output_dir: results

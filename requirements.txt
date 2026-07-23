@@ -1,0 +1,19 @@
+# Core runtime dependencies.
+# For the full set (torchhd encoder, torchvision datasets, plots, dev tools):
+#   pip install -e ".[all]"
+torch>=1.13
+numpy>=1.21
+scikit-learn>=1.0
+PyYAML>=6.0
+
+# Optional but recommended -----------------------------------------------
+# Reference hyperdimensional encoder. Note the PyPI name is `torch-hd`,
+# while the import name is `torchhd`. Omitting it is fine: the package falls
+# back to an equivalent pure-PyTorch encoder.
+torch-hd>=5.0
+
+# Needed only for --dataset mnist / fashion_mnist
+torchvision>=0.14
+
+# Needed only by the plotting scripts
+matplotlib>=3.5

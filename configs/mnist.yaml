@@ -1,0 +1,19 @@
+# Standard FL benchmark with a Dirichlet label-skew partition.
+dataset: mnist
+partition: dirichlet
+dirichlet_alpha: 0.5
+data_root: data
+
+n_clients: 10
+rounds: 10
+local_epochs: 5
+
+dimensions: 10000
+encoder: projection       # "projection" (fast) or "density" (torchhd, original notebook)
+
+differential_privacy: true
+epsilon: 10.0
+
+seed: 42
+device: auto
+output_dir: results

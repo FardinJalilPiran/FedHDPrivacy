@@ -1,0 +1,20 @@
+# Offline smoke test: synthetic data, small hyperspace, three rounds.
+# Runs on a laptop CPU in well under a minute and needs no network access.
+dataset: synthetic
+partition: dirichlet
+dirichlet_alpha: 0.5
+data_root: data
+
+n_clients: 4
+rounds: 3
+local_epochs: 3
+
+dimensions: 2000
+encoder: projection       # "projection" (fast) or "density" (torchhd, original notebook)
+
+differential_privacy: true
+epsilon: 10.0
+
+seed: 42
+device: cpu
+output_dir: results
